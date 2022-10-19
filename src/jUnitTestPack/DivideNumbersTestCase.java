@@ -12,12 +12,12 @@ class DivideNumbersTestCase {
 		int result = junit.divideNumbers(8, 4);
 		assertEquals(2, result);
 	}
-  
-  @Test
+	
+  	@Test
 	void testDivisionByZero() {
 		jUnitTestClass junit = new jUnitTestClass();
-    assertThrows(ArithmeticException.class, () -> {
-      int result = junit.divideNumbers(8, 0);
-    });
+		assertThrows(ArithmeticException.class, () -> {
+			int result = junit.divideNumbers(8, 0);
+		});
 	}
 }
