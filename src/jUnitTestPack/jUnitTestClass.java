@@ -12,4 +12,7 @@ public class jUnitTestClass {
 	public String addString(String s1, String s2) {
 		return s1+s2;
 	}
+	public float divideFloatNumbers(float a, float b) {
+		return a/b;
+	}
 }
